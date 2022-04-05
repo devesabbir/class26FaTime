@@ -1,0 +1,53 @@
+{
+  "post": [
+    {
+      "id": 1,
+      "name": "Sabbir",
+      "user_photo": "https://bit.ly/3NNBIqi",
+      "content": "i love js",
+      "post_photo": "https://bit.ly/3NNBIqi"
+    },
+    {
+      "id": 2,
+      "name": "Sajjad",
+      "user_photo": "https://bit.ly/3NNBIqi",
+      "content": "i love react",
+      "post_photo": "https://bit.ly/3NNBIqi"
+    },
+    {
+      "name": "asdda",
+      "user_photo": "dsa",
+      "content": "aad",
+      "post_photo": "dad",
+      "id": 3
+    },
+    {
+      "name": "asdda",
+      "user_photo": "dsa",
+      "content": "aad",
+      "post_photo": "dad",
+      "id": 4
+    },
+    {
+      "name": "Ssss",
+      "user_photo": "ssssssssss",
+      "content": "ssssssssssssssssss",
+      "post_photo": "ssssssssssssssssssssssssssss",
+      "id": 5
+    },
+    {
+      "name": "usrname",
+      "user_photo": "d",
+      "content": "d",
+      "post_photo": "d",
+      "id": 6
+    },
+    {
+      "name": "usrname",
+      "user_photo": "d",
+      "content": "d",
+      "post_photo": "d",
+      "id": 7
+    }
+  ]
+}

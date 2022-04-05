@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Environment</title>
+</head>
+
+<body>
+     <main>
+          <section class="post-area">
+               <div class="container">
+                    <div class="row">
+                         <div class="col-lg-3"></div>
+                         <div class="col-lg-6">
+                              <div class="card shadow my-3">
+                                   <div class="card-body">
+                                        <div class="post-box">
+                                             <img class="user-photo" src="" alt="">
+                                             <div class="post-btn">
+                                                  <button class="post-add-btn" data-bs-toggle="modal" data-bs-target="#post-add">Whats's on your mind?</button>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-lg-3"></div>
+                    </div>
+               </div>
+          </section>
+
+          <!-- add-Modal-start -->
+          <div class="modal fade" id="post-add">
+               <div class="modal-dialog">
+                    <div class="modal-content">
+                         <div class="modal-body">
+                              <h3>Create a Post</h3>
+                              <form method="POST" id="add_post_form">
+                                   <div class="my-2">
+                                        <input name="name" type="text" class="form-control" placeholder="Author Name">
+                                   </div>
+                                   <div class="my-2">
+                                        <input name="author_photo" type="text" class="form-control" placeholder="Author Photo">
+                                   </div>
+                                   <div class="my-2">
+                                        <textarea name="content" class="form-control" id="" cols="30" rows="10"></textarea>  
+                                   </div>
+                                   <div class="my-2">
+                                        <input name="post_img" type="text" class="form-control" placeholder="Post image">
+                                   </div>
+                                   <button class="btn btn-primary w-100" type="submit">Add Post</button>
+                              </form>
+                         </div>
+                    </div>
+               </div>
+          </div>
+
+     <!-- add-Modal-end -->
+          <section class="timeline-area">
+               <div class="container">
+                    <div class="row">
+                         <div class="col-lg-3"></div>
+                         <div id="post-timeline" class="col-lg-6">
+                       
+
+                         </div>
+                         <div class="col-lg-3"></div>
+                    </div>
+               </div>
+          </section>
+     </main>
+
+      
+
+</body>
+
+</html>
